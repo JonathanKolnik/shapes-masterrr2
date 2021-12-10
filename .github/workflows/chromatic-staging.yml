@@ -1,0 +1,16 @@
+name: "Chromatic (staging)"
+on: push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - run: |
+          yarn
+      - uses: chromaui/action@v1
+        env:
+          CHROMATIC_INDEX_URL: ${{ secrets.CHROMATIC_STAGING_URL }}
+        with:
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN_STAGING }}
+          token: ${{ secrets.GITHUB_TOKEN }}
