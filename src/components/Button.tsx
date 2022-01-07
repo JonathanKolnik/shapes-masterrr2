@@ -60,7 +60,7 @@ export default styled.button<Partial<Props>>(
 
     fill: 'currentColor',
     color: outline ? color[appearance] : color.lightest,
-    background: 'purple',
+    background: 'pink',
     boxShadow: outline ? `${color[appearance]} 0 0 0 1px inset` : 'none',
 
     ...(appearance === Appearance.tertiary && { color: outline ? color.dark : color.darkest }),
