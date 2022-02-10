@@ -12,6 +12,7 @@ const base = (props: Partial<Props>) => ({
   height: props.height || 'initial',
   overflow: 'hidden',
   backgroundColor: '#eee',
+  outline: 'rgb(255, 0, 0) solid 1px',
 });
 
 export const Box = styled.div<Props>(base, {
