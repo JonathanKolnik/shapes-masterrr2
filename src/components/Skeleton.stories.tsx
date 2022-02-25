@@ -1,12 +1,15 @@
 import React from 'react';
-
 import * as Skeleton from './Skeleton';
+
 
 export default {
   title: 'Components / Skeleton',
 };
 
-export const Box = () => <Skeleton.Box width={100} height={100} />;
+export const Box = () => <div>
+  <Skeleton.Box width={100} height={100} />
+  <Skeleton.Box width={100} height={100} />
+</div>
 export const Oval = () => <Skeleton.Oval width={100} height={100} />;
 export const Line = () => <Skeleton.Line width={100} />;
 export const Lines = () => (

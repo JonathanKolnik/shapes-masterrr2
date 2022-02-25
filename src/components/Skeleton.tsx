@@ -16,7 +16,8 @@ const base = (props: Partial<Props>) => ({
 });
 
 export const Box = styled.div<Props>(base, {
-  borderRadius: 2,
+  borderRadius: 20,
+  margin: '10px'
 });
 
 export const Oval = styled.div<Props>(base, {
