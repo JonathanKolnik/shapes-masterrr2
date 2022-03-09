@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
-
 import { color } from '../tokens/palette';
+
 
 export enum Appearance {
   primary = 'primary',
@@ -58,7 +58,7 @@ export default styled.div<Partial<Props>>(
       borderRadius: sizes[size],
       width: Math.round(sizes[size] * 0.35),
       height: Math.round(sizes[size] * 0.35),
-      background: color.lightest,
+      background: 'yellow',
       opacity: 0.7,
     },
     '&::after': {
@@ -69,7 +69,7 @@ export default styled.div<Partial<Props>>(
       borderRadius: sizes[size],
       width: Math.round(sizes[size] * 0.75),
       height: Math.round(sizes[size] * 0.75),
-      background: color.lightest,
+      background: 'yellow',
       opacity: 0.7,
     },
   })
