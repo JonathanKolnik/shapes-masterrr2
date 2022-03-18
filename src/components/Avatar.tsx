@@ -58,7 +58,7 @@ export default styled.div<Partial<Props>>(
       borderRadius: sizes[size],
       width: Math.round(sizes[size] * 0.35),
       height: Math.round(sizes[size] * 0.35),
-      background: 'yellow',
+      background: 'blue',
       opacity: 0.7,
     },
     '&::after': {
@@ -69,7 +69,7 @@ export default styled.div<Partial<Props>>(
       borderRadius: sizes[size],
       width: Math.round(sizes[size] * 0.75),
       height: Math.round(sizes[size] * 0.75),
-      background: 'yellow',
+      background: 'blue',
       opacity: 0.7,
     },
   })
