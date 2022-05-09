@@ -1,5 +1,5 @@
 import React from 'react';
-import { Global } from '@emotion/core';
+import { Global, css } from '@emotion/core';
 
 import globalStyles from '../src/helpers/globalStyles';
 import { background } from '../src/tokens/palette';
@@ -18,6 +18,24 @@ export const parameters = {
 export const decorators = [
   (Story) => (
     <>
+  <Global
+        styles={css`
+@media screen and (max-width: 1199px) {
+  img {
+    opacity: 1 !important;
+        // minHeight: 100%,
+    min-height: 90px !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  img {
+    opacity: 0.5 !important;
+  }
+}
+
+      `}
+    />
       <Global styles={globalStyles} />
       <Story />
     </>
