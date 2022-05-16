@@ -58,7 +58,7 @@ export default styled.div<Partial<Props>>(
       borderRadius: sizes[size],
       width: Math.round(sizes[size] * 0.35),
       height: Math.round(sizes[size] * 0.35),
-      background: 'yellow',
+      background: 'purple',
       opacity: 0.7,
     },
     '&::after': {

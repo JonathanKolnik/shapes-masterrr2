@@ -8,6 +8,8 @@
     "build": "build-storybook -s public",
     "chromatic": "CHROMATIC_INDEX_URL=https://www.dev-chromatic.com chromatic --project-token=aa2a9047e61c",
     "chromatic-staging": "CHROMATIC_INDEX_URL=https://www.staging-chromatic.com chromatic --project-token=0a42d355b47a",
+    "chromatic-staging-bb": "CHROMATIC_INDEX_URL=https://www.staging-chromatic.com chromatic --project-token=f0ee89047eeb",
+    "chromatic-prod": "chromatic --project-token 8d9fa54e0833",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
@@ -15,14 +17,15 @@
     "@emotion/core": "10.0.22",
     "@emotion/styled": "10.0.23",
     "polished": "3.4.2",
-    "react": "16.12.0",
-    "react-dom": "16.12.0"
+    "react": "17.0.0",
+    "react-dom": "17.0.0",
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {
     "@babel/core": "7.7.5",
-    "@storybook/addon-essentials": "^6.3.4",
-    "@storybook/addon-links": "^6.3.4",
-    "@storybook/react": "^6.3.4",
+    "@storybook/addon-essentials": "^6.5.0-beta.1",
+    "@storybook/addon-links": "^6.5.0-beta.1",
+    "@storybook/react": "^6.5.0-beta.1",
     "babel-loader": "8.0.6",
     "chromatic": "^6.1.0",
     "react-docgen-typescript-loader": "3.6.0",
