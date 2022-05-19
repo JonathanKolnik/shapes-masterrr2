@@ -16,6 +16,11 @@ export const Med = () => (
 
 );
 
+export const Large = () => (
+  <Avatar size="large" />
+
+);
+
 Med.parameters = {
   chromatic: { disableSnapshot: true },
 }
