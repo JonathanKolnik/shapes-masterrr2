@@ -7,7 +7,38 @@ export default {
 };
 
 export const Sizes = () => (
+  <div style={{display: 'flex'}}>
   <Avatar size="tiny" />
+  <Avatar size="tiny" />
+  <Avatar size="tiny" />
+  <Avatar size="tiny" />
+  <Avatar size="tiny" />
+  <Avatar size="tiny" />
+  <Avatar size="tiny" />
+  <Avatar size="tiny" />
+  <Avatar size="tiny" />
+  <Avatar size="tiny" />
+  <Avatar size="tiny" />
+  <Avatar size="tiny" />
+  <Avatar size="tiny" />
+  <Avatar size="tiny" />
+  <Avatar size="tiny" />
+  <Avatar size="tiny" />
+  <Avatar size="tiny" />
+  <Avatar size="tiny" />
+  <Avatar size="tiny" />
+  <Avatar size="tiny" />
+  <Avatar size="tiny" />
+  <Avatar size="tiny" />
+  <Avatar size="tiny" />
+  <Avatar size="tiny" />
+  <Avatar size="tiny" />
+  <Avatar size="tiny" />
+  <Avatar size="tiny" />
+  <Avatar size="tiny" />
+  <Avatar size="tiny" />
+
+  </div>
 
 );
 

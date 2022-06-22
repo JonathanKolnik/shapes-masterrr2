@@ -5,8 +5,7 @@ module.exports = {
   refs: {
    'design-system': {
      title: "Storybook Design System",
-     url: "https://627e598cf1be54789d528524-ngkakhukkp.dev-chromatic.com",
-     expanded: false // optional, true by default
+     url: "https://main--628699487545d87bef27ee80.dev-chromatic.com",
    }
   }
 

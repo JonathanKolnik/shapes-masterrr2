@@ -6,7 +6,7 @@
   "scripts": {
     "start": "start-storybook -s public -p 6006",
     "build": "build-storybook -s public",
-    "chromatic": "CHROMATIC_INDEX_URL=https://www.dev-chromatic.com chromatic --project-token478f949c790e",
+    "chromatic": "CHROMATIC_INDEX_URL=https://www.dev-chromatic.com chromatic --project-token=478f949c790e",
     "chromatic-staging": "CHROMATIC_INDEX_URL=https://www.staging-chromatic.com chromatic --project-token=0a42d355b47a",
     "chromatic-staging-bb": "CHROMATIC_INDEX_URL=https://www.staging-chromatic.com chromatic --project-token=f0ee89047eeb",
     "storybook": "start-storybook -p 6006",
